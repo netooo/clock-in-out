@@ -26,7 +26,7 @@ def clock_out():
         sleep(1)
 
     driver.find_element(By.CLASS_NAME, "down-arrow").click()
-    requests.post(settings.ATTENDANCE_DEV_URL, json={'text': '満江退勤します'})
+    requests.post(settings.ATTENDANCE_DEV_URL, json={'text': settings.NAME + '退勤します'})
 
 
 def main():

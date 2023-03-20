@@ -26,7 +26,7 @@ def clock_in():
         sleep(1)
 
     driver.find_element(By.CLASS_NAME, "up-arrow").click()
-    requests.post(settings.ATTENDANCE_DEV_URL, json={'text': '満江業務開始します'})
+    requests.post(settings.ATTENDANCE_DEV_URL, json={'text': settings.NAME + '業務開始します'})
 
 
 def main():
