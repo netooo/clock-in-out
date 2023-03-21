@@ -15,16 +15,14 @@ KOT_TOP_URL="https://s2.kingtime.jp/independent/recorder/personal/"
 KOT_ID=""
 KOT_PASS=""
 ATTENDANCE_DEV_URL="https://hooks.slack.com/services/<snip>"
+NAME="your_name"
 ```
 
 # CLI
-Setting .zshrc
+Type it.
+
 ```zsh
-alias clock-in="python3 ~/clock-in-out/in.py"
-alias clock-out="python3 ~/clock-in-out/out.py"
+python3 ~/clock-in-out/in.py
+python3 ~/clock-in-out/out.py
 ```
 
-Type its.
-```zsh
-clock-in
-```
